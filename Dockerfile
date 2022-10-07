@@ -7,4 +7,4 @@ COPY train.csv ./train.csv
 COPY train.py ./train.py
 COPY inference.py ./inference.py
 
-RUN python3 train.py
+RUN python3 inference.py
